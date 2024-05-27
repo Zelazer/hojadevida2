@@ -1,0 +1,108 @@
+body {
+    text-align: center;
+    font-family: Arial;
+    margin-right: 15%;
+    margin-left: 15%;
+    border: solid cornflowerblue;
+    border-width: 5px;
+    border-radius: 10px;
+}
+
+header {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+h1 {
+    margin: 0px;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 10px;
+    border-top: 1px solid white;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover, #certificados a:hover, #contactame:hover{
+    color: blue;
+}
+
+section {
+    padding: 15px;
+    margin-top: 0px;
+}
+
+.apartado {
+    color: cornflowerblue;
+    margin-top: 0px;
+    border-bottom-style: solid;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h3{
+    font-size: 25px;
+    margin-bottom: 3px;
+}
+
+footer {
+    background-color: cornflowerblue;
+    padding-top: 20px;
+    padding-bottom: 1px;
+}
+
+footer ul{
+    margin-bottom: 0px;
+}
+
+footer ul li{
+    display: inline;
+    margin-right: 20px;
+}
+
+#perfil img {
+    border-radius: 50%;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#perfil p{
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#certificados a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#contactame{
+    font-size: 17px;
+    color: white;
+    border: white solid 2px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    text-decoration: none;
+}   
+
+#contactame:hover{
+    border-color: blue;
+}
+
+
